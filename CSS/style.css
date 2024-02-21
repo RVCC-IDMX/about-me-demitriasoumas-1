@@ -49,7 +49,7 @@ section {
 
 .footerone {
     font-family: "Lilita One";
-    font-size: 30pt;
+    font-size: 40pt;
     text-align: center;
     color: #FA812F;
     text-shadow: 0 0 2px black, 0 0 2px black, 5px 3px 2px #874DEF; 
@@ -57,9 +57,9 @@ section {
 
 .footertwo {
     font-family: "Fredoka";
-    font-size: 15pt;
+    font-size: 17pt;
     letter-spacing: 1px;
     text-align: center;
-    text-shadow: 0 0 1px black, 0 0 1px black, 2px 1px 1px #DB4FC6;
+    text-shadow: 0 0 2px black, 0 0 2px black, 4px 3px 2px #DB4FC6;
     color:#70D6DA   
 }
