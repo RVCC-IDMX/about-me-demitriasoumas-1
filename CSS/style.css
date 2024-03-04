@@ -34,15 +34,7 @@ h2 {
     border: none
 }
 
-#hobbies ul li {
-    color: #874DEF;
-    text-align: left;
-    text-shadow: -0.7px 0 black, 0 0.7px black, -0.7px 0 black, 0 -0.7px black;
-
-}
-#hobbies ul li:nth-child(even) {
-    color:#70D6DA;
-}
+/* Bio Section */
 
 #bio {
     outline: groove;
@@ -62,6 +54,41 @@ h2 {
     color: #874DEF;
     text-shadow: -0.7px 0 black, 0 0.7px black, -0.7px 0 black, 0 -0.7px black;
 }
+
+/* Hobbies Section */
+
+#hobbies ul li {
+    color: #874DEF;
+    text-align: left;
+    text-shadow: -0.7px 0 black, 0 0.7px black, -0.7px 0 black, 0 -0.7px black;
+
+}
+#hobbies ul li:nth-child(even) {
+    color:#70D6DA;
+}
+
+/* Gallery Section */
+
+#gallery {
+    border-style: dashed;
+    border-width: 6px;
+    border-color: #FA812F;
+    outline: ridge #70D6DA;
+    outline-width: 8px;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    font-size: 12pt;
+    font-style: italic;
+    text-align: center;
+    color: #874DEF;
+}
+
+/* Footer Section */
 
 .footerone {
     font-family: "Lilita One";
