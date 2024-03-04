@@ -16,19 +16,35 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 70pt;
     text-align: center;
     color: #DB4FC6;
+}
+
+h1 {
     border-style: ridge;
     border-width: 15px;
     border-color: #70D6DA;
     outline: outset #874DEF;
     outline-width: 10px;
     padding: 1rem;
+    text-shadow: 2px 2px 2px black, 1px 1px 1px black, 8px 6px 5px #FA812F;
 }
 
-h1 {
-     text-shadow: 2px 2px 2px black, 1px 1px 1px black, 8px 6px 5px #FA812F;
+h2 {
+    font-size: 40pt;
+    text-shadow: 2px 2px 2px black;
+    border: none
 }
 
-section {
+#hobbies ul li {
+    color: #874DEF;
+    text-align: left;
+    text-shadow: -0.7px 0 black, 0 0.7px black, -0.7px 0 black, 0 -0.7px black;
+
+}
+#hobbies ul li:nth-child(even) {
+    color:#70D6DA;
+}
+
+#bio {
     outline: groove;
     outline-color: #DB4FC6;
     outline-width: 12px;
