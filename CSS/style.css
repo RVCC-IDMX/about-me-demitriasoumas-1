@@ -34,6 +34,7 @@ h2 {
     border: none
 }
 
+
 /* Bio Section */
 
 #bio {
@@ -86,6 +87,47 @@ h2 {
     font-style: italic;
     text-align: center;
     color: #874DEF;
+    margin-bottom: 2rem;
+}
+
+/* Literature Section */
+
+#lit {
+    outline: groove;
+    outline-color: #DB4FC6;
+    outline-width: 8px;
+    border-style: dotted;
+    border-width: 8px;
+    border-color: #70D6DA;
+}
+
+#lit div {
+    color: #FA812F;
+    text-shadow: -0.4px 0 black, 0 0.4px black, -0.4px 0 black, 0 -0.4px black;
+    font-size: 18pt;
+    text-align: left;
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem;
+    clear:both;
+}
+
+/* Dropcaps */
+
+#lit div p:first-letter {
+    font-family: "Lilita One";
+    color:#874DEF;
+    text-shadow: -0.8px 0 black, 0 0.8px black, -0.8px 0 black, 0 -0.8px black;
+    float: left;
+    font-size: 3em;
+    padding: .3em;
+    line-height: .25;
+    border: 6px outset #70D6DA;
+    margin-right: .25em;
 }
 
 /* Footer Section */
