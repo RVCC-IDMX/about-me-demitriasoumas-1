@@ -5,9 +5,6 @@ body {
     letter-spacing: 1px;
     text-align: center;
     background-color: #BEFF76;
-    outline-style: ridge;
-    outline-color: #FA812F;
-    outline-width: 8px;
     padding: 10%;
 }
 
@@ -21,9 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     border-style: ridge;
     border-width: 15px;
-    border-color: #70D6DA;
-    outline: outset #874DEF;
-    outline-width: 10px;
+    border-color: #874DEF;
     padding: 1rem;
     text-shadow: 2px 2px 2px black, 1px 1px 1px black, 8px 6px 5px #FA812F;
 }
@@ -34,17 +29,30 @@ h2 {
     border: none
 }
 
+h2 {
+    margin: 0.1em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
 
 /* Bio Section */
 
 #bio {
-    outline: groove;
-    outline-color: #DB4FC6;
-    outline-width: 12px;
     border-style: dotted;
-    border-width: 15px;
+    border-width: 12px;
     border-color: #70D6DA;
 } 
+
+section#bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .one {
     color: #FA812F;
@@ -57,6 +65,18 @@ h2 {
 }
 
 /* Hobbies Section */
+
+#hobbies {
+    border-style: ridge;
+    border-width: 9.5px;
+    border-color: #FA812F;
+}
+
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
 
 #hobbies ul li {
     color: #874DEF;
@@ -72,10 +92,8 @@ h2 {
 
 #gallery {
     border-style: dashed;
-    border-width: 6px;
-    border-color: #FA812F;
-    outline: ridge #70D6DA;
-    outline-width: 8px;
+    border-width: 8px;
+    border-color: #874DEF;
 }
 
 #gallery img {
@@ -86,18 +104,30 @@ h2 {
     font-size: 12pt;
     font-style: italic;
     text-align: center;
-    color: #874DEF;
+    color: #FA812F;
     margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
 }
 
 /* Literature Section */
 
 #lit {
-    outline: groove;
-    outline-color: #DB4FC6;
-    outline-width: 8px;
-    border-style: dotted;
-    border-width: 8px;
+    border-style: groove;
+    border-width: 10px;
     border-color: #70D6DA;
 }
 
